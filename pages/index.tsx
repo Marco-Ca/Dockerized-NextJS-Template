@@ -1,6 +1,5 @@
-import React from "react";
-const x = 1
+import React from 'react';
 
 export default function Home() {
-  return <div />;
+  return <div>Home</div>;
 }
