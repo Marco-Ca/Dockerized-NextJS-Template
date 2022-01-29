@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "target":"ES2018",
+    "target": "ES2018",
     "module": "commonjs",
-    "lib": ["es2018"],
+    "lib": [
+      "es2018"
+    ],
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,
@@ -16,8 +18,10 @@
     "inlineSourceMap": true,
     "inlineSources": true,
     "experimentalDecorators": true,
-    "strictPropertyInitialization":false,
-    "typeRoots": ["./node_modules/@types"],
+    "strictPropertyInitialization": false,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -26,13 +30,20 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "incremental": true
   },
-      "plugins": [
-      {
-        "name": "typescript-styled-plugin"
-      }
-    ],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "plugins": [
+    {
+      "name": "typescript-styled-plugin"
+    }
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
